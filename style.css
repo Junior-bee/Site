@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+.wrapper, .block, .sitename, .left, .right, main, footer {
+	border: 1px solid black;
+} 
+.wrapper {
+	margin: 30px auto;
+	width: 1100px;
+}
+h2 {
+	padding: 0 222px 0;
+	margin-bottom: 7px;
+	font: normal 20px Arial;
+}
+.sitename {
+	margin: 0 222px 50px;
+	padding: 10px 10px 10px;
+	font: normal 14px Arial;
+}
+.sitename a {
+	color: blue;
+	text-decoration: none;
+	margin-right: 15px;
+}
+a:hover, a.active {
+	color: red;
+	text-decoration: underline;
+}
+.container {
+	display: flex;
+}
+.left, .right {
+	width: 200px;
+	padding-left: 20px;
+}
+.left, main {
+	margin-right: 20px;
+}
+main {
+	width: 660px;
+}
+footer {
+	height: 80px;
+}
+h3 {
+	padding: 17px 15px;
+	font: normal 20px "Time new rooman";
+	margin-bottom: 0;
+}
+p {
+	margin-top: 0;
+	padding: 0 20px;
+	font: 15px Arial;
+	text-align: justify;
+}
+footer {
+	text-align: center;
+	padding-top: 30px;
+}
